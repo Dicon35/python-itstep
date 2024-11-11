@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-url = 'https://www.example.com'
+url = 'https://mystat.itstep.org/homework'
 response = requests.get(url)
 
 if response.status_code == 200:
